@@ -80,3 +80,7 @@ body {
 .img_card:hover {
 	background-color: rgb(33, 137, 185);
 }
+
+.purple:hover {
+	color: rgb(33, 137, 185);
+}
