@@ -21,7 +21,10 @@ body {
     justify-items: center;
     justify-content: center;
     flex-direction: column;
-	padding: 50px;
+	box-sizing: border-box;
+	padding: 40px;
+	width: auto;
+	height: 400px;
 }
 
 .txt_top {
@@ -62,5 +65,11 @@ body {
 }
 
 .img_card {
-	
+	height: 400px;
+	width: auto;
+}
+
+.img_card img {
+	width: auto;
+	height: 400px;
 }
