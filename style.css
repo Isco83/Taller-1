@@ -22,7 +22,7 @@ body {
     justify-content: center;
     flex-direction: column;
 	box-sizing: border-box;
-	padding: 40px;
+	padding: 40px 90px 40px 50px;
 	width: auto;
 	height: 400px;
 }
@@ -67,9 +67,16 @@ body {
 .img_card {
 	height: 400px;
 	width: auto;
+	background-color: blueviolet;
+  	background-repeat: repeat-x; 
 }
 
 .img_card img {
 	width: auto;
 	height: 400px;
+	opacity: 0.5;
+}
+
+.img_card:hover {
+	background-color: rgb(33, 137, 185);
 }
