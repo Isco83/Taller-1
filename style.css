@@ -1,22 +1,22 @@
 body {
-	background-color: rgb(10,12,27);
 	color: white;
 	height: 100%;
 	width: 100%;
 	margin: 0;
-	display: flex;
-	justify-content: center;
 }
 
 .container {
-	background-color: rgb(28,25,56);
+	background-color: rgb(10,12,27);
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	width: auto;
+	height: 750px;
 
 }
 
 .txt_card {
+	background-color: rgb(28,25,56);
 	display: flex;
     justify-items: center;
     justify-content: center;
@@ -28,6 +28,10 @@ body {
     font-size: 30px;
     font-family: sans-serif;
     text-align: justify;
+}
+
+.txt_top .purple {
+	color: rgb(149, 67, 226);
 }
 
 .txt_center {
